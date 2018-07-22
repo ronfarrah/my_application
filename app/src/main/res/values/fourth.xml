@@ -1,0 +1,10 @@
+ <resources>
+    <array name="fourthArray">
+         <item>退出</item>
+         <item>C1</item>
+         <item>C2</item>
+         <item>C3</item>
+         <item>C4</item>
+         <item>C5</item>
+     </array>
+ </resources>

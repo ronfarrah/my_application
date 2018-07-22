@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 顶层使用RelativeLayout布局，用于自定义的listview的行 -->
+<!-- layout_height用于设置行的高度，可以根据需要设置 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dip" >
+
+    <!-- 最左侧的TextView，宽度固定。layout_alignParentLeft和layout_alignParentTop用于对齐左上角 -->
+    <!-- layout_margin用于和其他的组件隔开一定的距离 -->
+    <!-- gravity属于用于设置内容的重心，此处为垂直居中，此外layout_height属于必须设置为match_parent即等于RelativeLayout的高度 -->
+    <!-- <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dip"
+        android:gravity="center_vertical"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" /> -->
+
+    <!-- 最右侧的Button，设置layout_alignParentRight和layout_alignParentTop为true -->    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Delete" />
+
+    <!-- 右数第二个Button，设置layout_toLeftOf为Button1 -->    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button1"
+        android:text="Edit" />
+
+    <!-- 此TextView的内容比较长，layout_toLeftOf为@+id/button2， layout_toRightOf为@+id/textView1 -->
+    <!-- 即占据了Button2和TextView1之间的全部空间 -->   <!--  <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dip"
+        android:layout_toLeftOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textView1"
+        android:gravity="center_vertical"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" /> -->
+
+</RelativeLayout>

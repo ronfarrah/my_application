@@ -1,0 +1,6 @@
+ <resources>
+    <array name="thirdArray">
+         <item>退出</item>
+         <item>投入</item>
+     </array>
+ </resources>

@@ -1,0 +1,97 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml
+		INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml
+		INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml
+		INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:6:2-8:41
+INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:6:2-8:41
+INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:6:2-8:41
+INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:6:2-8:41
+INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:6:2-8:41
+	android:targetSdkVersion
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml
+		INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:7:9-35
+		INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml
+		INJECTED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:9:2-71
+	android:name
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:9:19-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:12:5-78
+	android:name
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:15:5-84
+	android:name
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:15:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:16:22-78
+application
+ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:17:5-34:19
+	android:label
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:19:9-45
+	android:allowBackup
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:21:9-40
+activity#com.example.test.BTClient
+ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:23:9-29:20
+	android:label
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:24:19-51
+	android:name
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:23:19-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.example.test.DeviceListActivity
+ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:30:3-33:72
+	android:label
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:31:19-41
+	android:configChanges
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:33:19-69
+	android:theme
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:32:19-62
+	android:name
+		ADDED from D:\androidstudioworkspace\test31\app\src\main\AndroidManifest.xml:30:13-47

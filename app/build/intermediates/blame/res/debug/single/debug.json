@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\androidstudioworkspace\\test31\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\androidstudioworkspace\\test31\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\androidstudioworkspace\\test31\\app\\build\\intermediates\\res\\merged\\debug\\menu_option_menu.xml.flat",
+        "source": "D:\\androidstudioworkspace\\test31\\app\\src\\main\\res\\menu\\option_menu.xml"
+    },
+    {
+        "merged": "D:\\androidstudioworkspace\\test31\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "D:\\androidstudioworkspace\\test31\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\androidstudioworkspace\\test31\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\androidstudioworkspace\\test31\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\androidstudioworkspace\\test31\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_row.xml.flat",
+        "source": "D:\\androidstudioworkspace\\test31\\app\\src\\main\\res\\layout\\listview_row.xml"
+    },
+    {
+        "merged": "D:\\androidstudioworkspace\\test31\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\androidstudioworkspace\\test31\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\androidstudioworkspace\\test31\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_row_basic.xml.flat",
+        "source": "D:\\androidstudioworkspace\\test31\\app\\src\\main\\res\\layout\\listview_row_basic.xml"
+    },
+    {
+        "merged": "D:\\androidstudioworkspace\\test31\\app\\build\\intermediates\\res\\merged\\debug\\layout_sname.xml.flat",
+        "source": "D:\\androidstudioworkspace\\test31\\app\\src\\main\\res\\layout\\sname.xml"
+    },
+    {
+        "merged": "D:\\androidstudioworkspace\\test31\\app\\build\\intermediates\\res\\merged\\debug\\layout_device_list.xml.flat",
+        "source": "D:\\androidstudioworkspace\\test31\\app\\src\\main\\res\\layout\\device_list.xml"
+    },
+    {
+        "merged": "D:\\androidstudioworkspace\\test31\\app\\build\\intermediates\\res\\merged\\debug\\layout_message.xml.flat",
+        "source": "D:\\androidstudioworkspace\\test31\\app\\src\\main\\res\\layout\\message.xml"
+    },
+    {
+        "merged": "D:\\androidstudioworkspace\\test31\\app\\build\\intermediates\\res\\merged\\debug\\layout_device_name.xml.flat",
+        "source": "D:\\androidstudioworkspace\\test31\\app\\src\\main\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "D:\\androidstudioworkspace\\test31\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\androidstudioworkspace\\test31\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]

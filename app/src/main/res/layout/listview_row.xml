@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 使用RelativeLayout做为顶层布局元素 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 二级布局窗体加一个LinearLayout是为了使子LinearLayout能使用layout_weight来控制宽度 -->
+    <LinearLayout
+        android:id="@+id/linear_class_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="fill_vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center_vertical"
+            >
+           <TextView android:id="@+id/textView1"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                 />
+           <!-- <EditText android:id="@+id/textView2"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:selectAllOnFocus="true"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                 /> -->
+           <!--  <Spinner android:id="@+id/ttSpinner"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:selectAllOnFocus="true"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceSmall" /> -->
+            <Button android:id="@+id/ttButton"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:selectAllOnFocus="true"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <EditText android:id="@+id/et1"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:selectAllOnFocus="true"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                 />
+              <EditText android:id="@+id/et2"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:selectAllOnFocus="true"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceSmall" 
+                 />
+            <Button
+                android:id="@+id/button2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="设置" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
